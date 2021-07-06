@@ -1,4 +1,5 @@
 #create a class 
+#this will tell you how many unique letters are in a string of your choice. (it only tells you UNIQUE LETTERS)
 class Solution(object):
     def lettercount(self, letter):
         ''' Counts the number of letters in a str
@@ -16,7 +17,7 @@ class Solution(object):
         
 
 if __name__=="__main__":
-    example= "coconut124345?//>"
+    example= "coconut124345?//>"# enter what you want your string to be.
     sol=Solution()
     output=sol.lettercount(example)
     print(output)
